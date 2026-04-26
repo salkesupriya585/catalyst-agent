@@ -9,8 +9,13 @@ st.set_page_config(page_title="Catalyst — Skill Assessment Agent", page_icon="
 
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     
+    .stApp { background-color: #0f1117 !important; }
+    .block-container { padding-top: 2rem !important; max-width: 1100px !important; }
+    section[data-testid="stSidebar"] { display: none; }
+    div[data-testid="stToolbar"] { display: none; }
+    .stDeployButton { display: none; }    
     html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     
     .main { background: #0f1117; }
