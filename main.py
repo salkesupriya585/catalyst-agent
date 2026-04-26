@@ -5,7 +5,7 @@ from parser import parse_resume, parse_jd
 from agent import extract_skills, assess_skill, score_skill
 from planner import generate_learning_plan
 
-st.set_page_config(page_title="Catalyst — Skill Assessment Agent", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="Catalyst — Skill Assessment Agent", page_icon="🎓", layout="wide")
 
 st.markdown("""
 <style>
